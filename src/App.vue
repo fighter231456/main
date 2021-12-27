@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png" data-src="done" alt="" style="opacity: 1;">
-    <HelloWorld msg="Dango Chirstmas"/>
+    <HelloWorld msg="Dango New Year"/>
   </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     HelloWorld
   }
 }
-var countDownDate = new Date("Dec 24 2021 21:00:00").getTime();
+var countDownDate = new Date("Dec 31 2021 24:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
