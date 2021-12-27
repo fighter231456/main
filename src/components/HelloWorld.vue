@@ -89,10 +89,10 @@
                         </div></div></div></footer>
  <h4>Contract</h4>
     <ul>
-      <li><a href="https://discord.gg/7WARXsgW" target="_blank" rel="noopener">Discord</a></li>
+      <li><a href="https://discord.gg/7WARXsgW" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./discord.png" width="25" height="25"></a></li>
       <!-- <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li> -->
       <!-- <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li> -->
-      <li><a href="https://twitter.com/_FEPO_" target="_blank" rel="noopener">Twitter</a></li>
+      <li><a href="https://twitter.com/_FEPO_" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./twitter.png" width="25" height="25"></a></li>
       <!-- <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li> -->
     </ul>
     <h4>Ecosystem</h4>

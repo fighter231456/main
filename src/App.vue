@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" >
     <img src="./assets/logo.png" data-src="done" alt="" style="opacity: 1;">
     <HelloWorld msg="Dango New Year"/>
   </div>
@@ -57,7 +57,10 @@ var x = setInterval(function() {
   text-align: center;
   color: #ff0000;
   /* margin-top: -px; */
-  background: url("./assets/snow1.jpeg");
+  background-image: url("./assets/snow1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
   font-weight: 100;
   text-shadow: 0.088rem 0.088rem 0.125rem #000000;
   font-family: "Christmas dream";
