@@ -1,48 +1,10 @@
 <template>
+<div id="wrapper">
+  <div id="main">
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>"Events Countdown Timer"</h2>
     <h3  id="demo"></h3>
-
-<!-- <div id="timer01" class="timer">
-  <ul style="height: 109px;">
-    <li class="number days">
-      <div class="item">
-        <span class="digit count2" style="font-size: 80.85px;">
-          <span class="component" style="line-height: 81px; height: 81px;">0
-            </span><span class="component" style="line-height: 81px; height: 81px;">0
-              </span></span><span class="label"><span class="full">Days
-                </span><span class="abbreviated" style="display: none;">Days
-                  </span><span class="initialed" style="display: none;">D
-                    </span></span></div></li><li class="delimiter">
-                      <span class="symbol" style="font-size: 40.425px; line-height: 81px; height: 81px;">:
-                        </span></li><li class="number hours">
-                          <div class="item">
-                            <span class="digit count2" style="font-size: 80.85px;">
-                              <span class="component" style="line-height: 81px; height: 81px;">0
-                                </span><span class="component" style="line-height: 81px; height: 81px;">8
-                                  </span></span><span class="label"><span class="full">Hours
-                                    </span><span class="abbreviated" style="display: none;">Hrs
-                                      </span><span class="initialed" style="display: none;">H
-                                        </span></span></div></li><li class="delimiter">
-                                          <span class="symbol" style="font-size: 40.425px; line-height: 81px; height: 81px;">:
-                                            </span></li><li class="number minutes">
-                                              <div class="item">
-                                                <span class="digit count2" style="font-size: 80.85px;">
-                                                  <span class="component" style="line-height: 81px; height: 81px;">4
-                                                    </span><span class="component" style="line-height: 81px; height: 81px;">0
-                                                      </span></span><span class="label"><span class="full">Minutes
-                                                        </span><span class="abbreviated" style="display: none;">Mins
-                                                          </span><span class="initialed" style="display: none;">M
-                                                            </span></span></div></li><li class="delimiter">
-                                                              <span class="symbol" style="font-size: 40.425px; line-height: 81px; height: 81px;">:
-                                                                </span></li><li class="number seconds"><div class="item"><span class="digit count2" style="font-size: 80.85px;">
-                                                                  <span class="component" style="line-height: 81px; height: 81px;">1
-                                                                    </span><span class="component" style="line-height: 81px; height: 81px;">2
-                                                                      </span></span><span class="label"><span class="full">Seconds
-                                                                        </span><span class="abbreviated" style="display: none;">Secs
-                                                                          </span><span class="initialed" style="display: none;">S
-                                                                            </span></span></div></li></ul></div> -->
     <!-- <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -53,7 +15,6 @@
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
     </ul> -->
-     
     <footer id="footer">
       <div id="container16" class="container default">
         <div class="wrapper">
@@ -88,6 +49,7 @@
                                       <svg><use xlink:href="#icon-b3b"></use></svg><span class="label">Final Fantasy XIV
                                         </span></a><svg><use xlink:href="#icon-a0a"></use></svg></li></ul></div></div></div></footer> -->
                         </div></div></div></footer>
+                        
  <h4>Contract</h4>
     <ul>
       <li><a href="https://discord.gg/7WARXsgW" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./discord.png" width="25" height="25"></a></li>
@@ -98,9 +60,9 @@
     </ul>
     <h4>Ecosystem</h4>
     <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">Infomation</a></li>
+      <li><a href="https://na.finalfantasyxiv.com/lodestone/freecompany/9236601360760305191/" target="_blank" rel="noopener">Infomation</a></li>
     </ul
-    ></div>
+    ></div></div></div>
 </template>
 <script>
 // Set the date we're counting down to
@@ -218,5 +180,34 @@ h4{
 a[data-v-469af010] {
     color: #f5f5ff;
 }
+#main {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    background-color: rgba(44,42,54,0.8);
+    box-shadow: 0rem 3rem 3.125rem 0rem rgb(44 42 54 / 45%);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    transition: opacity 1.25s ease 0s,transform 1.25s ease 0s;
+    width: 40rem;
+}
+#wrapper {
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--viewport-height);
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3.5rem 3.5rem 3.5rem 3.5rem;
+}
+
 
 </style>

@@ -2,6 +2,7 @@
   <div id="app" >
     <img src="./assets/logo.png" data-src="done" alt="" style="opacity: 1;">
     <HelloWorld msg="Free company Dango"/>
+    
   </div>
 </template>
 
@@ -57,7 +58,7 @@ var x = setInterval(function() {
   text-align: center;
   color: #ff0000;
   /* margin-top: -px; */
-  background-image: url("./assets/snow1.jpeg");
+  background-image: url("./assets/Dango.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -66,7 +67,7 @@ var x = setInterval(function() {
   
   font-weight: 100;
   text-shadow: 0.088rem 0.088rem 0.125rem #000000;
-  font-family: "Christmas dream";
+  font-family: 'Montserrat', sans-serif;
 }
 #logo.png {
     width: 11.5rem;
@@ -97,4 +98,5 @@ h3 {
 body, html {
   height: 100%;
 }
+
 </style>
