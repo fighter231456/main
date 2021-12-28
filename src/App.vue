@@ -60,6 +60,9 @@ var x = setInterval(function() {
   background-image: url("./assets/snow1.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
   
   font-weight: 100;
   text-shadow: 0.088rem 0.088rem 0.125rem #000000;
@@ -90,5 +93,8 @@ h3 {
     text-shadow: 0.088rem 0.088rem 0.125rem #000000;
     color: #e2b00b;
     font-family: "Christmas dream";
+}
+body, html {
+  height: 100%;
 }
 </style>
