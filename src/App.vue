@@ -63,6 +63,7 @@ var x = setInterval(function() {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  --background-height: 99vh;
   height: 100%;
   
   font-weight: 100;
