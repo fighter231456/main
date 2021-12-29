@@ -62,9 +62,11 @@ var x = setInterval(function() {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  --background-height: 99vh;
-  height: 100%;
+  background-position: center center;
+  height: auto;
+  width: auto;
+  background-color: #cf2c2c;
+  
   
   font-weight: 100;
   text-shadow: 0.088rem 0.088rem 0.125rem #000000;
@@ -98,6 +100,7 @@ h3 {
 }
 body, html {
   height: 100%;
+  margin:0;
 }
 
 </style>
