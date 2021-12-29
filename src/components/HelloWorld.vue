@@ -55,9 +55,9 @@
   <div class="wrapper"><div class="inner"><div>
     
        <div class="zoom"> <a href="" class="frame"><img src="../assets/Dango.png" width="100%" alt=""></a></div>
-        <div class="overlay">
-          <div class="text">🍡🍡🍡</div>
-        </div>
+        
+          
+        
         </div></div></div></div>
 
         <hr id="divider03"> 
