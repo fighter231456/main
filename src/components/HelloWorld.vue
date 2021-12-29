@@ -305,7 +305,19 @@ p[data-v-469af010][data-v-469af010] {
   -webkit-transform: scale(5); /* Safari 3-8 */
   transform: scale(5);
 }
-
-
+#text05[data-v-053b413c] {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Raleway,sans-serif;
+    letter-spacing: .25rem;
+    width: calc(100% + .35rem);
+    font-size: .75em;
+    line-height: -1em;
+    font-weight: 100;
+    text-shadow: 0.088rem 0.088rem 0.125rem #000;
+}
+a[data-v-053b413c] {
+    color: #ffffff;
+}
 
 </style>
