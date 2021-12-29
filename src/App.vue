@@ -87,7 +87,7 @@ var x = setInterval(function() {
   background-position: center center;
   height: auto;
   width: auto;
-  background-color: #cf2c2c;
+  background-color: #c4498c;
   
   
   font-weight: 100;
