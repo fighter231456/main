@@ -51,7 +51,29 @@ var x = setInterval(function() {
   font-family: "Christmas Dream";
   src: url("./assets/Christmas\ Dream.ttf");
 }
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
 #app {
+
+
+
+
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
@@ -71,6 +93,10 @@ var x = setInterval(function() {
   font-weight: 100;
   text-shadow: 0.088rem 0.088rem 0.125rem #000000;
   font-family: 'Montserrat', sans-serif;
+  font-smooth: auto;
+
+  
+
 }
 #logo.png {
     width: 11.5rem;
@@ -102,5 +128,18 @@ body, html {
   height: 100%;
   margin:0;
 }
-
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
 </style>
