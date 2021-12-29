@@ -3,7 +3,7 @@
   <div id="main">
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>"Events Countdown Timer"</h2>
+    <h2></h2>
     <h3  id="demo"></h3>
     <!-- <p>
       For a guide and recipes on how to configure / customize this project,<br>
