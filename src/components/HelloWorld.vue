@@ -21,11 +21,11 @@
           <div class="inner">
             <hr id="divider01">
             <hr id="divider08">
-            <p id="text02">Dango website by Fight
+            <p id="text02">Dango FC
             </p>
             <p id="text05">
               <span>This is website for Free Company Dango User.
-                </span><br> <span>Please enjoy this page.Thank you.
+                </span><br> <span>We are Thai free company. Thais are more welcome to join na kub
                   </span><br> <span>Good luck and have fun
                     </span>
                     </p>
@@ -49,8 +49,20 @@
                                       <svg><use xlink:href="#icon-b3b"></use></svg><span class="label">Final Fantasy XIV
                                         </span></a><svg><use xlink:href="#icon-a0a"></use></svg></li></ul></div></div></div></footer> -->
                         </div></div></div></footer>
-                        
+                       
+  
+<div id="columns01" class="container columns">
+  <div class="wrapper"><div class="inner"><div>
+    
+       <div class="zoom"> <a href="" class="frame"><img src="../assets/Dango.png" width="100%" alt=""></a></div>
+        <div class="overlay">
+          <div class="text">🍡🍡🍡</div>
+        </div>
+        </div></div></div></div>
+
+        <hr id="divider03"> 
  <h4>Contract</h4>
+ 
     <ul>
       <li><a href="https://discord.gg/7WARXsgW" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./discord.png" width="25" height="25"></a></li>
       <!-- <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li> -->
@@ -58,11 +70,18 @@
       <li><a href="https://twitter.com/_FEPO_" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./twitter.png" width="25" height="25"></a></li>
       <!-- <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li> -->
     </ul>
-    <h4>Ecosystem</h4>
+    <hr id="divider03"> 
+    <h4>FreeCompany Click Here</h4>
+
     <ul>
-      <li><a href="https://na.finalfantasyxiv.com/lodestone/freecompany/9236601360760305191/" target="_blank" rel="noopener">Infomation</a></li>
+      <li><a href="https://na.finalfantasyxiv.com/lodestone/freecompany/9236601360760305191/" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./ffixv.png" width="150" height="size"></a></li>
     </ul
-    ></div></div></div>
+    ><hr id="divider03">
+    <span>Credit By :<ul><li><a target="_blank" >FEPO</a></li>  
+    </ul></span>
+    </div></div></div>
+  
+    
 </template>
 <script>
 // Set the date we're counting down to
@@ -208,6 +227,85 @@ a[data-v-469af010] {
     overflow: hidden;
     padding: 3.5rem 3.5rem 3.5rem 3.5rem;
 }
+p[data-v-469af010] {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -7px;
+}
+p[data-v-469af010][data-v-469af010] {
+    text-align: center;
+    color: rgb(238, 22, 123);
+    font-size: 22px;
+    margin-top: -5px;
+}
+#text05[data-v-469af010] {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+    width: calc(100% + 0.35rem);
+    font-size: 0.75em;
+    line-height: -1em;
+    font-weight: 100;
+    text-shadow: 0.088rem 0.088rem 0.125rem #000000;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #008CBA; */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.container:hover .overlay {
+  transform: scale(1);
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay[data-v-469af010] {
+    position: absolute;
+    bottom: -16px;
+    left: -250px;
+    right: 0;
+    overflow: hidden;
+    width: 104%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+.zoom {
+  padding: 0;
+  background-color: green;
+  transition: transform 1s;
+  width: 200px;
+  height: 110px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  -ms-transform: scale(5); /* IE 9 */
+  -webkit-transform: scale(5); /* Safari 3-8 */
+  transform: scale(5);
+}
+
 
 
 </style>

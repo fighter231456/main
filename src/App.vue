@@ -1,7 +1,7 @@
 <template>
   <div id="app" >
     <img src="./assets/logo.png" data-src="done" alt="" style="opacity: 1;">
-    <HelloWorld msg="Free company Dango"/>
+    <HelloWorld msg="Free company Dango🍡🍡🍡"/>
     
   </div>
 </template>
