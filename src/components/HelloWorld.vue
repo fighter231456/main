@@ -74,7 +74,7 @@
           <div id="columns02" class="container columns">
           <div class="wrapper"><div class="inner"><div>
     
-          <div class="zoom"> <a href="" class="frame"><img src="../assets/FEPO.png" width="100%" alt=""></a></div>
+          <div class="zoom"> <a href="" class="frame"><img src="../components/okami.png" width="100%" alt=""></a></div>
         <hr id="divider03"></div>
         </div></div></div></div>
 
