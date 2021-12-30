@@ -21,15 +21,17 @@
           <div class="inner">
             <hr id="divider01">
             <hr id="divider08">
-            <p id="text02">Dango FC
+            <p id="text02">Profile//プロフィール
             </p>
             <p id="text05">
-              <span>This is website for Free Company Dango User.
-                </span><br> <span>We are Thai free company. Thais are more welcome to join na kub
+              <span>Race / Ethnicity / Gender//種族 / 部族 / 性別
+                </span><br> <span>Miqo'te / Tribe of the Sun / ♀ /ミコッテ / サンシーカー / ♀
                   </span><br> <span>Good luck and have fun
                     </span>
                     </p>
-                    <hr id="divider03">
+                     <p id="text09"> <font _mstmutation="1" _msthash="725478" _msttexthash="345332">G u n g n i r&nbsp;( E l e m e n t a l )</font></p>
+                    <p data-v-469af010="" id="text02">Free company//所属フリーカンパニー </p>
+                    <p id="text06"><span data-v-469af010="">Chocolate Dango(DANGO)</span></p>
                     <!-- <hr id="divider03">
                     </div>
                     </div>
@@ -49,6 +51,7 @@
                                       <svg><use xlink:href="#icon-b3b"></use></svg><span class="label">Final Fantasy XIV
                                         </span></a><svg><use xlink:href="#icon-a0a"></use></svg></li></ul></div></div></div></footer> -->
                         </div></div></div></footer>
+                        
                        
   
 <div id="columns01" class="container columns">
@@ -60,21 +63,36 @@
         
         </div></div></div></div>
 
+
         <hr id="divider03"> 
+
+        <hr id="divider03">
+
+        <div id="giga">
+          <p id="text02">Role : Phtographer</p>
+          
+          <div id="columns02" class="container columns">
+          <div class="wrapper"><div class="inner"><div>
+    
+          <div class="zoom"> <a href="" class="frame"><img src="../assets/FEPO.png" width="100%" alt=""></a></div>
+        <hr id="divider03"></div>
+        </div></div></div></div>
+
+        
  <h4>Contract</h4>
  
     <ul>
-      <li><a href="https://discord.gg/7WARXsgW" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./discord.png" width="25" height="25"></a></li>
+      <li><a href="https://discord.gg/7WA" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./discord.png" width="25" height="25"></a></li>
       <!-- <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li> -->
       <!-- <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li> -->
       <li><a href="https://twitter.com/_FEPO_" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./twitter.png" width="25" height="25"></a></li>
       <!-- <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li> -->
     </ul>
     <hr id="divider03"> 
-    <h4>FreeCompany Click Here</h4>
+    <h4>M Y L I N K</h4>
 
     <ul>
-      <li><a href="https://na.finalfantasyxiv.com/lodestone/freecompany/9236601360760305191/" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./ffixv.png" width="150" height="size"></a></li>
+      <li><a href="https://fr.finalfantasyxiv.com/lodestone/character/39078772/#profile" target="_blank" rel="noopener"><img border="0" alt="W3Schools" src="./ffixv.png" width="150" height="size"></a></li>
     </ul
     ><hr id="divider03">
     <span>Credit By : FEPO<ul><li><a href="/about" class="router-link-exact-active router-link-active" aria-current="page"><img border="0" alt="W3Schools" src="./link.png" width="20" height="20"></a></li>
@@ -196,6 +214,9 @@ p {
 }
 h4{
   color: #a1df2e;
+  display: block;
+  font-size: 2em;
+  font-weight: 50;
 }
 a[data-v-469af010] {
     color: #f5f5ff;
@@ -214,7 +235,7 @@ a[data-v-469af010] {
     box-shadow: 0rem 3rem 3.125rem 0rem rgb(44 42 54 / 45%);
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     transition: opacity 1.25s ease 0s,transform 1.25s ease 0s;
-    width: 40rem;
+    width: 30rem;
 }
 #wrapper {
     -webkit-overflow-scrolling: touch;
@@ -332,7 +353,7 @@ a[data-v-053b413c] {
   text-align: center;
   color: #ff0000;
   /* margin-top: -px; */
-  background-image: url("../assets/Dango.png");
+  background-image: url("../assets/FEPO.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -390,5 +411,21 @@ body, html {
   border-top: 16px solid #3498db;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
+}
+#text06 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.35rem;
+    width: calc(100% + 0.35rem);
+    font-size: 0.75em;
+    line-height: -1em;
+    font-weight: 100;
+    text-shadow: 0.088rem 0.088rem 0.125rem #000000;
+}
+#text09{
+  font-size: 3em;
+  text-shadow: 0.088rem 0.088rem 0.125rem #000000;
+  color: #3af10c;
 }
 </style>

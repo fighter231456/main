@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img src="../assets/logo.png" data-src="done" alt="" style="opacity: 1;">
-    <HelloWorld msg="Free company Dango"/>
+    <img src="../components/ffixv.png" data-src="done" alt="" style="opacity: 1;">
+    <HelloWorld msg="F E P O - G I G A"/>
   </div>
 </template>
 
@@ -18,8 +18,8 @@ export default {
 </script>
 <style>
 @font-face {
-  font-family: "Christmas Dream";
-  src: url("../assets/Christmas\ Dream.ttf");
+  font-family: "Text";
+  src: url("../assets/Text.otf");
 }
 #app {
   
@@ -28,9 +28,9 @@ export default {
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
   text-align: center;
-  color: #ff0000;
+  color: #ec54a0;
   /* margin-top: -px; */
-  /* background-image: url("../assets/Dango.png"); */
+  background-image: url("../assets/FEPO.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -40,9 +40,9 @@ export default {
   background-color: #cf2c2c;
   
   
-  font-weight: 100;
+  font-weight: normal;
   text-shadow: 0.088rem 0.088rem 0.125rem #000000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Text', sans-serif;
   font-smooth: auto;
 
   
